@@ -1,0 +1,8 @@
+{
+    "base": "~/Programs/CLIVideo/TV Shows",
+    "mpvDefaults": "mpv.default.settings",
+
+    "whitelist": [
+        "mkv", "mp4"
+    ]
+}

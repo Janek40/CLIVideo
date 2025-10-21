@@ -1,0 +1,47 @@
+# ============================
+# MPV Default Playback Settings
+# ============================
+
+# Start fullscreen
+fullscreen=yes
+
+# Keep correct aspect ratio
+keepaspect=yes
+
+# Automatically deinterlace interlaced sources
+deinterlace=auto
+
+# Use hardware decoding if available
+hwdec=auto-safe
+
+# Use vsync for smooth motion
+video-sync=display-resample
+
+# Don't show subtitles by default
+sub-auto=no
+no-sub
+
+# Audio normalization and downmixing
+volume=100
+af=lavfi=[loudnorm]
+audio-channels=stereo
+
+# Show simple on-screen display for status
+osd-level=1
+osd-font-size=24
+
+# Remember position in files
+save-position-on-quit=yes
+
+# Smooth scaling for upscaled content
+scale=ewa_lanczossharp
+cscale=ewa_lanczossharp
+dscale=mitchell
+
+
+# Screenshot format and location
+screenshot-format=png
+screenshot-directory=~/Pictures/mpv_screenshots
+
+# Loop single file (off)
+loop-file=no

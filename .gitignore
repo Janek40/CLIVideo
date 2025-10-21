@@ -1,0 +1,53 @@
+# ===========================
+# Build and binary directories
+# ===========================
+/build/
+/bin/
+
+# Object files and libraries
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+
+# ===========================
+# IDE / Editor files
+# ===========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.user
+*.workspace
+*.code-workspace
+
+# ===========================
+# OS-specific junk
+# ===========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ===========================
+# Logs and temporary files
+# ===========================
+*.log
+*.tmp
+*.bak
+*.old
+
+# ===========================
+# Misc
+# ===========================
+# Ignore core dumps
+core
+
+# Ignore local JSON configs if you want to keep secrets local
+# (uncomment if your clivideo.json contains personal paths)
+# config/clivideo.json
